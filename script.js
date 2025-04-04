@@ -11,7 +11,7 @@ const coverScreen = document.querySelector(".cover-screen");
 const result = document.getElementById("result");
 const overText = document.getElementById("over-text");
 
-const base = "./images/";
+const base = "./";
 let fruits = [];
 let points = 0;
 const fruitsList = ["apple", "banana", "grapes"];
