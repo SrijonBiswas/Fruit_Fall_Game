@@ -50,7 +50,7 @@ function Fruit(image, x, y, width) {
   this.image.src = image;
   this.x = x;
   this.y = y;
-  this.speed = generateRandomNumber(5, 10) + Math.floor(points / 5);
+  this.speed = generateRandomNumber(7, 15) + Math.floor(points / 3);
   this.width = width;
   this.clicked = false;
   this.complete = false;
